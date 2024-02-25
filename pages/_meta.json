@@ -20,17 +20,17 @@
     }
   },
 
-  "about": {
-    "title": "About ↗",
+  "web": {
+    "title": "Web ↗",
     "type": "page",
-    "href": "https://twitter.com/_morkie",
+    "href": "https://morkie.xyz",
     "newWindow": true
   },
   
   "contact": {
     "title": "Contact ↗",
     "type": "page",
-    "href": "https://morkie.xyz/",
+    "href": "mailto:morkiexyz@gmail.com",
     "newWindow": true
   }
 }
