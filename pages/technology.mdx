@@ -1,0 +1,55 @@
+
+## Technology
+
+Morkie is web3 application that leveraging the power of Next.js for the frontend and Thirdweb for seamless backend integration, focusing on blockchain-based interactions through smart contracts. Designed with performance and user experience in mind, Morkie aims to provide an innovative solution in the digital art and helping artist all over the world. 
+
+## Features
+
+- **Next.js Frontend**: Utilizes the latest features of Next.js for fast, server-side rendered pages and optimal user experience.
+- **Thirdweb Backend**: Integrates with Thirdweb for secure, scalable backend logic and blockchain interaction.
+- **Blockchain Integration**: Smart contracts for minting NFTs and managing digital assets ensuring transparent and trustless transactions.
+
+## Smart Contracts
+
+Our project utilizes the following smart contracts
+
+- **OpenEditionERC721**: [Version 5.0.1](https://thirdweb.com/thirdweb.eth/OpenEditionERC721/5.0.1) - This contract allows for the creation and management of open edition NFTs, enabling users to mint and trade digital assets securely.
+
+### Smart Contract Audit
+
+ The audit report is available [here](https://drive.google.com/file/d/1OUD22LrEN9tq7TPBoGBqgZtrZWCrgukB/view?usp=sharing).
+
+
+### Prerequisites
+
+
+- A wallet with Ethereum support (e.g., MetaMask)
+
+### How we call the Smart Contract
+
+```jsx
+<Web3Button
+  contractAddress="0x5A3B5f1B364eF597e3E6E994810ae5f3918C7D65"
+  action={async (contract) => {
+    await contract.erc721.claim(value);
+  }}
+  onSuccess={(result) => alert("Success!")}
+>
+  Mint
+</Web3Button> 
+```
+
+
+
+## Twitter Authentication at Morkie
+
+At Morkie, we prioritize user privacy and data security. As part of our commitment to these principles, we have integrated Twitter Authentication 2.0 into our platform. This authentication method is designed to enhance user authenticity without compromising privacy.
+
+## Our Policy on Data Privacy
+
+- **No Storage of Personal Information**: Morkie does not retain any personal information obtained through Twitter Authentication. This includes not storing user IDs or any other identifiable data.
+- **Purpose of Twitter Auth**: The integration of Twitter Auth 2.0 is solely for the purpose of verifying user authenticity. It allows us to ensure that interactions within our platform are genuine, thereby enhancing the overall user experience and trust in our ecosystem.
+
+We understand the importance of maintaining user trust, and our use of Twitter Authentication 2.0 reflects our dedication to upholding the highest standards of privacy and security.
+
+- In case of full frontend check please contact us: morkiexyz@gmail.com

@@ -1,15 +1,18 @@
 {
   "index": "Introduction",
-  "another": "Another Page",
-  "advanced": "Advanced (A Folder)",
+  "technology": "Technology",
+  "roadmap": "Roadmap",
   "about": {
-    "title": "About",
-    "type": "page"
+    "title": "About ↗",
+    "type": "page",
+    "href": "https://twitter.com/_morkie",
+    "newWindow": true
   },
+  
   "contact": {
     "title": "Contact ↗",
     "type": "page",
-    "href": "https://twitter.com/shuding_",
+    "href": "https://morkie.xyz/",
     "newWindow": true
   }
 }
