@@ -1,7 +1,7 @@
-import React from 'react'
-import { DocsThemeConfig } from 'nextra-theme-docs'
+import React from 'react';
+import { DocsThemeConfig } from 'nextra-theme-docs';
 
-const config: DocsThemeConfig = {
+const config: DocsThemeConfig & { useNextSeoProps?: () => object } = {
   logo: <span>Morkie</span>,
   project: {
     link: 'https://github.com/mazzwell/Morkie',
@@ -13,6 +13,11 @@ const config: DocsThemeConfig = {
   footer: {
     text: 'Morkie Docs',
   },
-}
+  useNextSeoProps: () => {
+    return {
+      titleTemplate: '%s | Morkie Documentation',
+    };
+  },
+};
 
-export default config
+export default config;
