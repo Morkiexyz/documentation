@@ -9,7 +9,7 @@ const config: DocsThemeConfig = {
   chat: {
     link: 'https://discord.com/invite/4kJgQ4AuJN',
   },
-  docsRepositoryBase: 'https://github.com/mazzwell/Morkie',
+  docsRepositoryBase: 'https://github.com/mazzwell/documentation',
   footer: {
     text: 'Morkie Docs',
   },
