@@ -2,16 +2,13 @@
   "index": {
     "title": "Introduction",
     "theme": {
-      "toc": false,
-      "pagination": true
+      "footer": false
     }
   },
 
   "technology": "Technology",
   "roadmap": "Roadmap",
 
-
-  
   "about": {
     "title": "About ↗",
     "type": "page",
