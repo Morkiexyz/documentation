@@ -1,0 +1,15 @@
+{
+  "about": {
+    "title": "About",
+    "theme": {
+      "footer": false
+    }
+  },
+
+  "Tokenomics": {
+    "title": "Tokenomics",
+    "theme": {
+      "footer": false
+    }
+  }
+}

@@ -6,8 +6,19 @@
     }
   },
 
-  "technology": "Technology",
-  "roadmap": "Roadmap",
+  "technology": {
+    "title": "Technology",
+    "theme": {
+      "footer": false
+    }
+  },
+
+  "roadmap": {
+    "title": "Roadmap",
+    "theme": {
+      "footer": false
+    }
+  },
 
   "about": {
     "title": "About ↗",
