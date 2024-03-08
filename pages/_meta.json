@@ -1,6 +1,7 @@
 {
   "index": {
     "title": "Introduction",
+    "description": "A brief overview of our project and what we aim to achieve.",
     "theme": {
       "footer": false
     }
@@ -8,6 +9,7 @@
 
   "technology": {
     "title": "Technology",
+    "description": "Insight intotechnologies that powering our project.",
     "theme": {
       "footer": false
     }
@@ -15,6 +17,7 @@
 
   "roadmap": {
     "title": "Roadmap",
+    "description": "Our journey ahead, outlining key milestones and goals.",
     "theme": {
       "footer": false
     }
@@ -22,6 +25,7 @@
 
   "web": {
     "title": "Web ↗",
+    "description": "Visit our website for more information.",
     "type": "page",
     "href": "https://morkie.xyz",
     "newWindow": true
@@ -29,6 +33,7 @@
   
   "contact": {
     "title": "Contact ↗",
+    "description": "Get in touch with us via email.",
     "type": "page",
     "href": "mailto:morkiexyz@gmail.com",
     "newWindow": true
