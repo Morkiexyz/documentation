@@ -1,14 +1,12 @@
 {
   "about": {
     "title": "About",
-    "description": "This section provides an overview of our project, including our mission, values, and the team behind it. Discover who we are and what drives us.",
     "theme": {
       "footer": false
     }
   },
   "Tokenomics": {
     "title": "Tokenomics",
-    "description": "Dive into the economic model of our token, including its distribution, utility, and the mechanisms in place to ensure its long-term viability. Learn how our token is designed to support both our project and its users.",
     "theme": {
       "footer": false
     }
