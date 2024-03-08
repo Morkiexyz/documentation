@@ -23,6 +23,14 @@
     }
   },
 
+  "faucet": {
+    "title": "Faucet",
+    "description": "A brief overview of our faucet project.",
+    "theme": {
+      "footer": false
+    }
+  },
+
   "web": {
     "title": "Web ↗",
     "description": "Visit our website for more information.",
