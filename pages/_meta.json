@@ -6,8 +6,8 @@
     }
   },
 
-  "technology": {
-    "title": "Technology",
+  "platform": {
+    "title": "Platform",
     "theme": {
       "footer": false
     }
